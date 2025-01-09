@@ -6,6 +6,7 @@
   flex-direction: column;
   margin: 10px;
   padding: 10px;
+  
 }
 p {
   color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */

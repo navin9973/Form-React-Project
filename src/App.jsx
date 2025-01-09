@@ -80,12 +80,14 @@ function App() {
         <label htmlFor="count" className="form-label">Country</label>
         <br />
         <select
+        
           name="country"
           id="country"
           onChange={changeHandler}
           value={formData.country}
            className="form-control"
         >
+          <option value="" selected >Select Your Country</option>
           <option value="India">India</option>
           <option value="chaina">chaina</option>
           <option value="USA">USA</option>
